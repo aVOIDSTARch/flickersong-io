@@ -1,0 +1,39 @@
+:root {
+  font-family: system-ui, -apple-system, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+  color-scheme: light;
+  color: #111;
+  background-color: var(--color-bg, #fafafa);
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+  /* Design tokens (overridden by theme) */
+  --color-text: #111;
+  --color-text-muted: #444;
+  --color-accent: #535bf2;
+  --color-border: #e0e0e0;
+  --color-surface: #fff;
+  --hero-bg: linear-gradient(135deg, #1a1a2e 0%, #16213e 100%);
+  --hero-text: #f0f0f0;
+  --card-placeholder-bg: #e8e8e8;
+  --tag-bg: #eee;
+}
+
+a {
+  font-weight: 500;
+  color: var(--color-accent);
+  text-decoration: inherit;
+}
+
+a:hover {
+  opacity: 0.85;
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+  min-height: 100vh;
+}

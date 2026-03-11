@@ -1,1 +1,8 @@
 ## This file contains the ideas for this specific project
+
+This is my new Sole Proprietorship Business
+
+I want to have a sleek minimalist landing page with a themematic hero image and this initial page will express company phikosophy and the general projects I am working on.
+There will eventually be a projects page with a large featured projeect area at the top and a list of the projects associated with this entity list below on wide short cards with a salient image on the left and other content and a link to the project repo and/or url
+
+always use typescript, vite, and preact for webpages unless otherwise specified. Use vitest. TSdocs and setup the framework and present a proposal for the layout and three aesthetic paradigms for me to assess
