@@ -1,9 +1,9 @@
-import { Router, Route } from 'preact-router'
-import { ThemeProvider } from './theme'
-import { Landing } from './pages/Landing'
-import { Projects } from './pages/Projects'
-import { Header } from './components/Header'
-import './app.css'
+import { Router, Route } from 'preact-router';
+import { ThemeProvider } from './theme';
+import { Landing } from './pages/Landing';
+import { Projects } from './pages/Projects';
+import { Header } from './components/Header';
+import './app.css';
 
 /**
  * Root component: theme provider, header, and router for Landing and Projects.
